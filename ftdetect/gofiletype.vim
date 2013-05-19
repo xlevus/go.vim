@@ -2,4 +2,4 @@
 " Use of this source code is governed by a BSD-style
 " license that can be found in the LICENSE file.
 
-au BufEnter *.go set filetype=go
+au BufRead,BufNewFile *.go set filetype=go
